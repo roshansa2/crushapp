@@ -37,7 +37,7 @@ body {
 
 .paper.image {
   padding: 10px;
-  aspect-ratio: 3 / 2;
+ 
 }
 .paper.image p {
   font-size: 50px;
@@ -47,7 +47,7 @@ img {
   max-height: 300px;
   width: 100%;
   user-select: none;
-  aspect-ratio: 3 / 2;
+  object-fit: contain;
 }
 
 .paper.heart::after {
